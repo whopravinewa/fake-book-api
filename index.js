@@ -12,8 +12,10 @@ app.use((req, res, next) => {
   );
   next();
 });
-
-app.use("/books", (req, res) => {
+app.get("/", (req, res) => {
+  res.send("welcome");
+});
+app.get("/books", (req, res) => {
   res.send([
     {
       title: "Unlocking Android",
