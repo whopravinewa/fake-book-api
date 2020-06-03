@@ -931,16 +931,6 @@ app.get("/books", (req, res) => {
       authors: ["Robert I. Kabacoff"],
       categories: ["Software Engineering"],
     },
-    {
-      title: "Android in Practice",
-      isbn: "9781935182924",
-      pageCount: 0,
-      thumbnailUrl:
-        "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/kaeppler.jpg",
-      status: "MEAP",
-      authors: ["Matthias Kaeppler", "Michael D. Galpin", "Charlie Collins"],
-      categories: ["Mobile Technology"],
-    },
   ]);
 });
 
